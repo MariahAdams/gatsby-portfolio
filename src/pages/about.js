@@ -3,16 +3,21 @@ import { graphql } from 'gatsby';
 
 export default ({ data }) => (
   <div>
-    <h1>About {data.site.siteMetadata.title}</h1>
-    <p>Whaaaaat is happening......?!</p>
+    <h1>{data.allContentfulBio.edges[0].node.name}</h1>
   </div>
 );
 
 export const query = graphql `
   query {
-    site {
-      siteMetadata {
-        title
+    allContentfulBio {
+      edges {
+        node {
+          name
+          body {
+            id
+            body
+          }
+        }
       }
     }
   }
