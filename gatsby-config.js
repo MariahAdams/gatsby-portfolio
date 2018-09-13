@@ -1,3 +1,7 @@
+require('dotenv').config();
+const SPACE_ID = process.env.SPACE_ID;
+const DELIVERY_API_KEY = process.env.DELIVERY_API_KEY;
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Portfolio Draft`,
@@ -6,8 +10,8 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: `n296y4mcvd8c`,
-        accessToken: `4a8ab34c95a99c4e72f69b9643ee17e566f4669a7225a43920a5dbaed903077c`,
+        spaceId: SPACE_ID,
+        accessToken: DELIVERY_API_KEY,
       },
     },
   ]
