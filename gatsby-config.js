@@ -5,6 +5,7 @@ const DELIVERY_API_KEY = process.env.DELIVERY_API_KEY;
 module.exports = {
   siteMetadata: {
     title: `Gatsby Portfolio Draft`,
+    banana: `working?`
   },
   plugins: [
     {
@@ -14,5 +15,6 @@ module.exports = {
         accessToken: DELIVERY_API_KEY,
       },
     },
+    `gatsby-plugin-sass`
   ]
 }

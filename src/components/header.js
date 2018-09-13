@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import styles from './Header.module.scss';
 
 class Header extends Component {
   
   render() { 
     return (
-      <div>
+      <div className={styles.header}>
         <nav>
           <span className="menu-toggle">Menu <i className="fas fa-bars"></i></span>
           <div className="menu-content">
