@@ -1,7 +1,8 @@
 import React from "react";
 import Header from '../components/Header';
 import Intro from '../components/Intro';
-import Projects from '../components/projects/Projects';
+import ProjectsList from '../components/projects/ProjectsList';
+import About from './about';
 import Footer from '../components/Footer';
 
 
@@ -14,7 +15,7 @@ export default () => (
     <main>
       <Intro />
   
-      <Projects />
+      <ProjectsList />
   
       <About />
     </main>
