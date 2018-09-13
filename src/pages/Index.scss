@@ -1,4 +1,16 @@
 :local(.index) {
+  $font-header: 'Metrophobic', sans-serif;
+  $font-text: 'Open Sans', sans-serif;
 
-  border: 2px solid red;
+  @mixin center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1, h2, h3 {
+    font-family: $font-header;
+    @include center();
+  }
+
 }
