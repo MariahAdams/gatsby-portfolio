@@ -4,10 +4,11 @@ import Intro from '../components/Intro';
 import ProjectsList from '../components/projects/ProjectsList';
 import About from '../components/About';
 import Footer from '../components/Footer';
+import styles from './Index.module.scss';
 
 
 export default () => (
-  <div>
+  <div className={styles.index}>
     <header>
       <Header />
     </header>
