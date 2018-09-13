@@ -2,6 +2,7 @@ import React from "react";
 import Header from '../components/Header';
 import Intro from '../components/Intro';
 import Projects from '../components/projects/Projects';
+import Footer from '../components/Footer';
 
 
 export default () => (
@@ -19,7 +20,7 @@ export default () => (
     </main>
   
     <footer>
-      <span>&copy; <time dateTime="2018">2018</time></span>
+      <Footer />
     </footer>
   </div>
 );
