@@ -1,6 +1,7 @@
 import React from "react";
 import Header from '../components/Header';
 import Intro from '../components/Intro';
+import Projects from '../components/projects/Projects';
 
 
 export default () => (
@@ -12,19 +13,7 @@ export default () => (
     <main>
       <Intro />
   
-      <section className="projects">
-        <header>
-          <h2>My Projects.</h2>
-        </header>
-  
-        <article>
-          <a href="./project-detail.html"><img src="" alt="splash page for project 1" /></a>
-        </article>
-  
-        <article>
-          <a href="./project-detail.html"><img src="" alt="splash page for project 2" /></a>
-        </article>
-      </section>
+      <Projects />
   
       <section className="about">
         <hgroup>
