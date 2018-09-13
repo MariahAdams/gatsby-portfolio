@@ -1,17 +1,11 @@
 import React from "react";
+import Header from './header';
 
 
 export default () => (
   <div>
     <header>
-      <nav>
-        <span className="menu-toggle">Menu <i className="fas fa-bars"></i></span>
-        <div className="menu-content">
-          <a href="#projects">Projects</a>
-          <a href="#about">About</a>
-          <a href="#resume">Resume</a>
-        </div>
-      </nav>
+      <Header />
     </header>
     
     <main>
