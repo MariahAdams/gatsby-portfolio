@@ -6,13 +6,10 @@ class Intro extends Component {
     return (
       <section className="intro">
         <hgroup>
-          <h1>Hello, I'm Mariah!</h1>
-          <img src="https://avatars3.githubusercontent.com/u/35393465?s=460&v=4" alt="Mariah Adams" width="200px"/>
-        </hgroup>  
-  
-        <article>
+          <h1>Mariah Adams</h1>
+          {/* <img src="https://avatars3.githubusercontent.com/u/35393465?s=460&v=4" alt="Mariah Adams" width="200px"/> */}
           <p>Full Stack JavaScript Developer.</p>
-        </article>
+        </hgroup>  
       </section>
     );
   }
