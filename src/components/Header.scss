@@ -1,6 +1,110 @@
 :local(.header) {
 
+  a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 6px;
+  }
+  
+  a:hover {
+    color: steelblue;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+  }
+  
+  a:visited {
+    color: purple;
+  }
+  
   nav {
-    border: 2px solid red;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 20px;
+  }
+  
+  .menu-toggle {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .menu-content {
+    align-content: center;
+    display: none;
+    flex-direction: column;
+    padding: 6px 0px 6px 0px;
+  }
+  
+  nav:hover .menu-content {
+    display: flex;
+  }
+  
+  .menu-content > a:hover {
+    background-color: steelblue;
+  }
+  
+  .intro img {
+    border-radius: 100%;
+  }
+  
+  footer {
+    background-color: rgb(36, 36, 36);
+    padding: 10px; 
+  }
+  
+  footer > span {
+    color: white;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    
+    nav {
+      background-color: rgb(36, 36, 36);
+      color: white;
+    }
+  
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  
+    a:hover {
+      color: steelblue;
+      text-decoration: underline;
+    }
+  
+    a:active {
+      color: yellow;
+    }
+  
+    a:visited {
+      color: purple;
+    }
+  
+    .menu-toggle {
+      display: none;
+    }
+  
+    .menu-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+  
+    footer {
+      background-color: rgb(36, 36, 36);
+      padding: 10px; 
+    }
+    
+    footer > span {
+      color: white;
+    }
+  
   }
 }
