@@ -1,0 +1,20 @@
+:local(.footer) {
+
+  background-color: rgb(36, 36, 36);
+  padding: 10px; 
+  
+  span {
+    color: white;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    
+    background-color: rgb(36, 36, 36);
+    padding: 10px; 
+    
+    span {
+      color: white;
+    }
+  }
+}
