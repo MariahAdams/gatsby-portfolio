@@ -50,15 +50,7 @@
   .intro img {
     border-radius: 100%;
   }
-  
-  footer {
-    background-color: rgb(36, 36, 36);
-    padding: 10px; 
-  }
-  
-  footer > span {
-    color: white;
-  }
+
   
   @media only screen and (min-width: 768px) {
     /* For desktop: */
@@ -95,16 +87,6 @@
       flex-direction: row;
       justify-content: space-around;
     }
-  
-  
-    footer {
-      background-color: rgb(36, 36, 36);
-      padding: 10px; 
-    }
-    
-    footer > span {
-      color: white;
-    }
-  
+
   }
 }

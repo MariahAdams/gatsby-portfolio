@@ -5,6 +5,12 @@ body {
 :local(.index) {
   $font-header: 'Metrophobic', sans-serif;
   $font-text: 'Open Sans', sans-serif;
+  $saphire-blue: #35759D;
+  $turquoise: #3391A7;
+  $magenta: #9E3B79;
+  $pink: #D93353;
+  $ruby: #913539;
+
 
   @mixin center() {
     display: flex;
