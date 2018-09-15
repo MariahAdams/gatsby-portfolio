@@ -29,15 +29,30 @@ export default () => (
       }
     `
 }
-    render={data => (
+    render={({ allContentfulBio: {
+      edges: [
+        {
+          node: {
+            picture: {
+              file: {
+                url
+              }
+            },
+            body: {
+              body
+            }
+          }
+        }
+      ]
+    } }) => (
       <section>
         <hgroup>
         <h2>About Mariah.</h2>
-        <img src={data.allContentfulBio.edges[0].node.picture.file.url} alt="Mariah Adams"></img>
+        <img src={url} alt="Mariah Adams"></img>
       </hgroup>
       
       <article>
-      {data.allContentfulBio.edges[0].node.body.body}
+      {body}
       </article>
 
       <div className="social-media">
