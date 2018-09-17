@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0px;
 }
@@ -10,6 +14,8 @@ body {
   $magenta: #9E3B79;
   $pink: #D93353;
   $ruby: #913539;
+  $seaglass: #538078;
+  
 
 
   @mixin center() {

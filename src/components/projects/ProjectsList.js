@@ -5,7 +5,7 @@ class ProjectsList extends Component {
   
   render() { 
     return (
-      <section className={styles.projects}>
+      <section className={styles.projects} id="projects">
         <header>
           <h2>My Projects.</h2>
         </header>

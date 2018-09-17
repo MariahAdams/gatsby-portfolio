@@ -14,7 +14,7 @@ class Header extends Component {
             <a href="#resume">Resume</a>
           </div>
         </nav>
-    </div>
+      </div>
     );
   }
 }

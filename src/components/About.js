@@ -29,23 +29,25 @@ export default () => (
       }
     `
 }
-    render={({ allContentfulBio: {
-      edges: [
-        {
-          node: {
-            picture: {
-              file: {
-                url
+    render={(
+      { allContentfulBio: {
+        edges: [
+          {
+            node: {
+              picture: {
+                file: {
+                  url
+                }
+              },
+              body: {
+                body
               }
-            },
-            body: {
-              body
             }
           }
-        }
-      ]
-    } }) => (
-      <section>
+        ]
+      } 
+    }) => (
+      <section id="about">
         <hgroup>
         <h2>About Mariah.</h2>
         <img src={url} alt="Mariah Adams"></img>

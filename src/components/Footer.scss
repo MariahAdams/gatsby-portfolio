@@ -2,10 +2,29 @@
 
   background-color: rgb(36, 36, 36);
   padding: 10px; 
+  display: flex;
+  justify-content: space-between;
   
   span {
     color: white;
   }
+
+  a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 6px;
+  }
+  
+  a:hover {
+    color: steelblue;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+  }
+
   
   @media only screen and (min-width: 768px) {
     /* For desktop: */
@@ -16,5 +35,20 @@
     span {
       color: white;
     }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  
+    a:hover {
+      color: steelblue;
+      text-decoration: underline;
+    }
+  
+    a:active {
+      color: yellow;
+    }
+
   }
 }

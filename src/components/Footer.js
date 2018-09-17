@@ -8,8 +8,9 @@ class Footer extends Component {
     return (
       <footer className={styles.footer}>
         <span>
-          &copy; <time dateTime="2018">2018</time>
+          &copy; <time dateTime="2018">Mariah Adams 2018</time>
         </span>
+          <a href="#top">Back to the top</a>
       </footer>
     );
   }
